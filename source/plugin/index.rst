@@ -41,6 +41,7 @@ Contents
     templates
     main-class
     lifecycle
+    optional/index
     logging
     text/index
     commands/index
