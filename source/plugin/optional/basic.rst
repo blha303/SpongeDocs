@@ -184,10 +184,12 @@ Using ``Optional`` we can encode this much much more cleanly as:
     }
 
 This is merely the tip of the ``Optional`` iceberg. In java 8 ``Optional`` also supports the ``Consumer`` and
-``Supplier`` interfaces, allowing lambas to be used for *absent* failover.
+``Supplier`` interfaces, allowing lambas to be used for *absent* failover. Usage examples for those can be found on the
+:doc:`usage` page.
 
 .. note::
 
- Further explanations are provided here: `Guava: Using And Avoiding Null Explained <https://github.com/google/guava/wiki/UsingAndAvoidingNullExplained/>`_
-
-If you want to know more about the usage of Optionals, then head over to: :doc:`usage`
+    Another explanation on the rationale behind avoiding null references can be found on
+    `Guava: Using And Avoiding Null Explained <https://github.com/google/guava/wiki/UsingAndAvoidingNullExplained/>`_.
+    Beware that the guava ``Optional`` class mentioned in the linked article is different from java's
+    ``java.util.Optional`` and therefore will have method names different from those used here.
